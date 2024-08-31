@@ -4,15 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div className="bg-black h-screen m-0">
         <div className="flex items-center justify-center h-96">
-          <img src="https://upload.wikimedia.org/wikipedia/en/4/48/Vaudevillevillain.jpg" className="object-center" alt="" />
+          <img draggable="false" src="https://upload.wikimedia.org/wikipedia/en/4/48/Vaudevillevillain.jpg" className="object-center" alt="" />
         </div>
-        <code>Ha Ha Ha!</code>
+        <code className='bg-gray-700 rounded-xl w-full text-center px-24 py-4'>Ha Ha Ha!</code>
       </div>
     </>
   )
