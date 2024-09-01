@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <div className="bg-black h-screen w-screen pt-44">
-          <div class="cool-border m-auto">
-            <img draggable="false" src="https://upload.wikimedia.org/wikipedia/en/4/48/Vaudevillevillain.jpg" className="object-center" alt="" />
-          </div>
-          <code className=''>oh yeah</code>
+        <div className="cool-border m-auto">
+        <iframe className="mx-auto my-4" src="https://open.spotify.com/embed/track/6rkV9hz91Rr5iHnMRPZdEQ?utm_source=generator&theme=0" width="50%" height="352"></iframe>
         </div>
+        <p>oh yeah</p>
+      </div>
     </>
   )
 }
