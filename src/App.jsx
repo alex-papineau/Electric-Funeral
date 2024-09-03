@@ -13,7 +13,7 @@ function App() {
         </div>
         <p>oh yeah</p> */}
         <h1 className='text-7xl text-white text-center'>Working on it <code>:)</code></h1>
-        <p className='text-black'>i don't know when this will be done</p>
+        <p className='text-black'>i don't know when this will be done!</p>
       </div>
     </>
   )
